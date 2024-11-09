@@ -1,0 +1,11 @@
+# Ignore all .pyc files
+__pycache__
+
+# Ignore the .env file
+.env
+
+# Ignore the virtual environment
+.venv/
+
+# Ignore the default checkpoint directory
+models/
