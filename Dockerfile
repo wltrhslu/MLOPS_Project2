@@ -13,5 +13,8 @@ COPY main.py main.py
 COPY modules modules
 COPY train.sh train.sh
 
+# Make the script executable
+RUN chmod +x train.sh
+
 # Set the entrypoint
 ENTRYPOINT ["./train.sh"]
