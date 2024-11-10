@@ -47,6 +47,8 @@ cd MLOPS_Project2
 
 If you want to change the hyperparameters, remember to edit [train.sh](./train.sh) before building the docker image.
 
+:bangbang: **The training batch size of 128 is too large for Codespaces. If you are running this on Codespaces, change the training batch size to 64 in [train.sh](./train.sh).** :bangbang:
+
 ```bash
 docker build -t mlops_project2 .
 ```
