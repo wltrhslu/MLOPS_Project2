@@ -34,6 +34,8 @@ There are several parameters that can be passed to the training script. To chang
 
 The hyperparameters of the best run from project 1 are pre-configured in [train.sh](./train.sh).
 
+:bangbang: **The training batch size of 128 is too large for Codespaces. If you are running this on Codespaces, change the training batch size to 64 in [train.sh](./train.sh).** :bangbang:
+
 ## 4. Steps to run the training
 
 ### 4.1 Clone the repository
@@ -46,8 +48,6 @@ cd MLOPS_Project2
 ### 4.2 Build the docker image
 
 If you want to change the hyperparameters, remember to edit [train.sh](./train.sh) before building the docker image.
-
-:bangbang: **The training batch size of 128 is too large for Codespaces. If you are running this on Codespaces, change the training batch size to 64 in [train.sh](./train.sh).** :bangbang:
 
 ```bash
 docker build -t mlops_project2 .
