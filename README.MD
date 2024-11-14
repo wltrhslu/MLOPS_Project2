@@ -41,7 +41,7 @@ The hyperparameters of the best run from project 1 are pre-configured in [train.
 ### 4.1 Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/wltrhslu/MLOPS_Project2
 cd MLOPS_Project2
 ```
 
